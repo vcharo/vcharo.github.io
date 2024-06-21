@@ -50,8 +50,7 @@
 //<![CDATA[
       //function to fix height of iframe!
       var calcHeight = function() {
-        var headerDimensions = $('.preview__header').height();
-        $('.full-screen-preview__frame').height($(window).height() - headerDimensions);
+        $('.full-screen-preview__frame').height($(window).height());
       }
 
       $(document).ready(function() {
